@@ -13,6 +13,11 @@ public class KhachHang {
 		this.tenKH = tenKH;
 		this.sanPhams = sanPhams;
 	}
+	
+	public KhachHang(String maKH, String tenKH) {
+		this.maKH = maKH;
+		this.tenKH = tenKH;
+	}
 
 	public KhachHang() {
 		sanPhams = new ArrayList<>();

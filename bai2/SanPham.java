@@ -32,7 +32,7 @@ public class SanPham {
 	public void xuat() {
 		System.out.println("Mã sản phẩm: " + maSP);
 		System.out.println("Tên sản phẩm: " + tenSP);
-		System.out.println("Đơn gia sản phẩm: " + dongiaSP);
+		System.out.println("Đơn gia sản phẩm: " + dongiaSP + "VNĐ");
 	}
 	public boolean checkMaSP(String maSP) {
 		return this.maSP.equalsIgnoreCase(getMaSP());
